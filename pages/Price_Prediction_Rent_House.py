@@ -2,10 +2,11 @@ import streamlit as st
 import pandas as pd
 import joblib
 import numpy as np
+# from sklearn.import
 
 st.title("🔮 Price Prediction Rent House")
 
-model = joblib.load("../model/model_prediksi_rent.pkl")
+model = joblib.load("model/model_prediksi_rent.pkl")
 
 st.markdown("Isi form di bawah ini untuk memprediksi harga sewa berdasarkan fitur properti:")
 
